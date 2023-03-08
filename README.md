@@ -21,7 +21,8 @@ Whatever you prefer (e.g. `conda` or `venv`)
 ```console
 mkdir myproject
 $ cd myproject
-$ python3 -m venv venv
+$ python -m venv venv
+
 ```
 
 ### Activate it

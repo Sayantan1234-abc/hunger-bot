@@ -9,7 +9,7 @@
         "Hello",
         "Good day",
         "Whats up",
-        "how are ya",
+        "how are you?",
         "heyy",
         "whatsup"
       ],
@@ -72,26 +72,44 @@
       "context_set": ""
     },
     {
-      "tag": "ingredients",
-      "patterns": [
-        "water",
-        "maggi masala",
-        "cheese maggi",
-        "chicken maggi",
-        "maggi",
-        "salt maggi",
-        "pepper maggi",
-        "2 pieces chilli"
-      ],
-      "responses": ["you can make maggi"]
-    },
-    {
       "tag": "dish",
       "patterns": [
-        "I want to make a dish "
+        "I want to make a bengali dish",
+        "I want to prepare a bengali dish",
+        "I want to prepare another Bengali Dish"
       ],
-      "responses": ["What are the ingredients?"]
+      "responses": ["what are your ingredients?"]
+    },
+    {
+      "tag": "ingredients 1",
+      "patterns": [
+        "mustard oil, nigella seeds, dried red chillies, onions, potatoes, poppy seeds, green chillies,salt, sugar "
+      ],
+      "responses": ["You can make aloo posto by using these ingredients"]
+     },
+     {
+      "tag": "ingredients 2",
+      "patterns": [
+        "gram flour, rice flour, salt, kashmiri red chilli powder, water, brinjal , salt , sugar , mustard oil"
+      ],
+      "responses": ["You can make Beguni by using these ingredients"]
+     },
+     {
+      "tag": "ingredients 3",
+      "patterns": [
+        "all-purpose flour, salt, sugar, vegetable oil, hot water, vegetable oil for deep-frying"
+      ],
+      "responses": ["You can make luchi by using these ingredients"]
+    },
+    {
+      "tag": "ingredients 4",
+      "patterns": [
+        "sugar, white vinegar, ripe mangoes , onion, golden raisins , ginger , mustard seeds, red pepper flakes"
+      ],
+      "responses": ["You can make mango chutney by using these ingredients"] 
     }
+     
+  
   ]
 }
  
